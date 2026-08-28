@@ -1,0 +1,22 @@
+# Data (regenerate via src/download_data.py)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# trained model artifacts (regenerate via src/train_model.py)
+models/

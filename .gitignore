@@ -1,22 +1,53 @@
-# Data (regenerate via src/download_data.py)
+# ============================================================
+# DATA
+# ============================================================
+
+# Do not upload raw dataset
 data/raw/*
+
+# Ignore processed files by default
 data/processed/*
+
+# But include the file required by the Streamlit deployment
+!data/processed/uplift_scores_test.csv
+
+# Keep folders
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Python
+
+# ============================================================
+# PYTHON
+# ============================================================
+
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
 .venv/
 venv/
 env/
+
 *.egg-info/
 
+
+# ============================================================
 # OS / IDE
+# ============================================================
+
 .DS_Store
 .vscode/
 .idea/
 
-# trained model artifacts (regenerate via src/train_model.py)
-models/
+
+# ============================================================
+# MODEL ARTIFACTS
+# ============================================================
+
+# Ignore models by default
+models/*
+
+# Include only files required by deployed Streamlit app
+!models/xlearner.pkl
+!models/feature_cols.json
+!models/categories.json

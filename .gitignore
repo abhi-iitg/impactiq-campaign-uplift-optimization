@@ -51,3 +51,6 @@ models/*
 !models/xlearner.pkl
 !models/feature_cols.json
 !models/categories.json
+
+data/
+models/

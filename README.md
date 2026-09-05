@@ -510,7 +510,7 @@ The Qini curves compare the uplift learners against random targeting. On the den
 
 ### 2. Incremental Lift by Customer Decile
 
-![Uplift by decile](reports/figures/uplift_by_decile.png)
+![Uplift by decile](https://github.com/abhi-iitg/impactiq-campaign-uplift-optimization.git/reports/figures/uplift_by_decile.png)
 
 Customers are ranked from highest to lowest predicted uplift and grouped into deciles.
 

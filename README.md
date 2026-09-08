@@ -986,7 +986,7 @@ That distinction turns campaign analytics from **response prediction** into **in
 ## 👨‍💻 Connect
 
 **Abhishek Kumar Gond**  
-B.Tech, IIT Guwahati
+Chemical Engineering @ IIT Guwahati
 
 If you find the project useful, consider giving the repository a ⭐.
 
